@@ -17,7 +17,6 @@ import streamlit as st
 import replicate
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyD0kfPWgTtxV8GlYLEqLlVVQuuenfIzHKg")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # App title
