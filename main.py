@@ -15,7 +15,6 @@
 
 import streamlit as st
 import replicate
-import os
 import google.generativeai as genai
 
 genai.configure(api_key="AIzaSyD0kfPWgTtxV8GlYLEqLlVVQuuenfIzHKg")
